@@ -7,6 +7,7 @@ node {
         def customImage = docker.build("kaivalyapatil/new-job-portal")
 
         /* Push the container to the custom Registry */
+        /* Push the container to the custom Registry */
         customImage.push()
     }
 }
